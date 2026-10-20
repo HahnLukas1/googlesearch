@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page page-search">
+  <header class="site-header">
+    <nav class="top-nav" aria-label="Search options">
+      <a href="images.html">Image Search</a>
+      <a href="advanced.html">Advanced Search</a>
+    </nav>
+  </header>
+
+  <main class="search-main">
+    <h1 class="google-logo" aria-label="Google">
+      <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
+    </h1>
+
+    <form class="search-form" action="https://www.google.com/search" method="get" role="search">
+      <div class="search-field">
+        <span class="search-icon" aria-hidden="true"></span>
+        <input type="search" name="q" aria-label="Search Google" autocomplete="off" required autofocus>
+      </div>
+      <div class="search-actions">
+        <button type="submit" class="action-button">Google Search</button>
+        <button type="submit" class="action-button" name="btnI" value="1">I'm Feeling Lucky</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="site-footer">Czechia</footer>
+</body>
+</html>
